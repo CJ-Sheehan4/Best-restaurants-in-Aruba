@@ -1,0 +1,126 @@
+<!--
+  File: index.html
+  GUI HW1: This is a webpage of my trip to Aruba over the summer
+  Cornelius Sheehan, Umass Lowell Computer Science, cornelius_sheehan@student.uml.edu
+  Copyright (c) 2022 by Cornelius Sheehan. All rights reserved. May be freely copied or excerpted for educational purposes with credit to the author.
+  September 13, 2022 
+-->
+<!DOCTYPE html> 
+<html lang="en">
+    <!--Head is where I put the title and CSS link-->
+    <head>  
+        <meta charset="UTF-8">
+        <!--Title on the tab says what the page is about-->
+        <title>Aruba Trip</title> 
+        <!--This links my CSS code to the HTML code-->
+        <link rel="stylesheet" href="css/mystyle.css"> 
+    </head>
+    <!--Body is where all the code goes for page such as img, text, etc-->
+    <body> 
+        <!-- header at the very top of the page-->
+        <h1><strong>Best restaurants in Aruba</strong></h1>
+        <!--The div below is used with the restraurant class in my CSS file. The way each div is set up is everything is centered elements inside being vertical. Starting at the top going down, each div has <p> tag for the name of the palace, an image of my food I had, a table with info, and another <p> describing my experience there-->
+        <div class="restaurant"> 
+            <!--The text below is bold header for the first restaurant that has a link to the restaurants website-->
+            <p><b><a href= "https://bochincha.com/home">Bochincha Container Yard</a></b></p>
+            <!--Below is an image I took of my food at this restaurant. The image can be clicked because it has a link to the restaurant as well. The <a> tag goes before an img opposed to inside-->
+            <a href= "https://bochincha.com/home"><img src="images/IMG_2850.JPG" alt="empenadas"></a>
+            <!--The beginning of a table tag is below. All my tables are set up the same way being two coulmns and three rows. There is some styling in the CSS file for the tables as well-->
+            <table> 
+                <!--table row-->
+                <tr> 
+                    <!--The first column is a table header-->
+                    <th>Cuisine</th> 
+                    <!--The second column is for table data-->
+                    <td>Mexican</td> 
+                </tr>
+                <tr>
+                    <th>Location</th> 
+                    <td>Oranjestad</td>
+                </tr>
+                <tr>
+                    <th>Meal</th>
+                    <td>Empenadas</td>
+                </tr>
+            </table>
+            <!--Each div/restaurant class has a paragraph section at the end where I describe the experience-->
+            <p>This place was a bunch of piled up storage containers with several small restaurants inside. We chose the Mexican restaurant and only got an appetizer. This picture shows a mix of chicken and beef empanadas. It was a little too salty.  
+            </p>
+        </div>
+        <!--above is the end of the first div and below is the start of div number 2-->
+        <div class="restaurant">
+          <!--The text below is bold header for the first restaurant that has a link to the restaurants website-->
+            <p><b><a href= "https://www.yemanja-aruba.com/">Yemanja Wood Fire Grill</a></b></p>
+            <a href= "https://www.yemanja-aruba.com/"><img src="images/IMG_2952.JPG" alt="duck dumplings"></a>
+            <!--start of table-->
+            <table> 
+                <!--table row-->
+                <tr> 
+                    <!--table header-->
+                    <th>Cuisine</th>
+                    <!--table data-->
+                    <td>Grilling</td>
+                <!--end of table row-->
+                </tr>
+                <tr>
+                    <th>Location</th>
+                    <td>Oranjestad</td>
+                </tr>
+                <tr>
+                    <th>Meal</th>
+                    <td>Lamb Dumplings</td>
+                </tr>
+            <!--end of table in this div-->
+            </table>
+            <p>This place was easily the best restaurant on the list, however, it was too expensive and so we left after the appetizer. The dumplings were very good. The waitress was trying to sell us water. It was a little too salty for my taste. 
+            </p>
+        <!--end of div 2-->    
+        </div>
+        <!--div 3/restaurant 3-->
+        <div class="restaurant">
+          <!--The text below is bold header for the first restaurant that has a link to the restaurants website. This didnt have a website so I liked to the lighthouse it is next to-->
+            <p><b><a href= "https://en.wikipedia.org/wiki/California_Lighthouse">A Coconut Food Truck</a></b>
+            </p>
+            <a href= "https://en.wikipedia.org/wiki/California_Lighthouse"><img src="images/IMG_2966.JPG" alt="coconut truck">
+            </a>
+            <table>
+                <tr>
+                    <th>Cuisine</th>
+                    <td>Bar</td>
+                </tr>
+                <tr>
+                    <th>Location</th>
+                    <td>Noord</td>
+                </tr>
+                <tr>
+                    <th>Meal</th>
+                    <td>Coconut Coctail</td>
+                </tr>
+            </table>
+            <p>This was near the California Lighthouse in Noord. They were chopping up fresh coconuts and selling them with liquor and fruit. It hit the spot on that super hot day. It was a little salty though. 
+            </p>
+        </div>
+        <div class="restaurant">
+          <!--The text below is bold header for the first restaurant that has a link to the restaurants website-->
+            <p><b><a href= "https://www.thedutchpancakehouse.com/">The Dutch Pancakehouse</a></b></p>
+            <a href= "https://www.thedutchpancakehouse.com/"><img src="images/IMG_3027.JPG" alt="pancakes"></a>
+            <table>
+                <tr>
+                    <th>Cuisine</th>
+                    <td>Dutch</td>
+                </tr>
+                <tr>
+                    <th>Location</th>
+                    <td>Oranjestad</td>
+                </tr>
+                <tr>
+                    <th>Meal</th>
+                    <td>poffertjes</td>
+                </tr>
+            </table>
+            <p>This place was seated outdoors and was amazing. These Dutch pancakes were mini and came with a 
+            side of Nutella. It was awesome to have this for dinner while watching karaoke. Little salty.
+            </p>
+        </div>
+    </body>
+</html>
