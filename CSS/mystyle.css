@@ -1,0 +1,54 @@
+/*
+  File: mystyle.css
+  GUI HW1: This is the styling CSS code for the index.html 
+  Cornelius Sheehan, Umass Lowell Computer Science, cornelius_sheehan@student.uml.edu
+  Copyright (c) 2022 by Cornelius Sheehan. All rights reserved. May be freely copied or excerpted for educational purposes with credit to the author.
+  September 13, 2022 
+*/
+/*
+  below is my restaurant class to style the divs in the html code. 
+  The width and height are for where the borders are of the div. Then I have
+  the border width along with the style and color. The padding for the div is for the amount of space between 
+  the elements inside and the borders of the div. I used auto for the margin because it centered the div and made it look nice being flush with the next div. I tried different margin px numbers and they all looked horrible. Then I have all text be centered in the divs as well. 
+*/
+.restaurant {
+    width:500px;
+    height:700px;
+    border-width: 5px;
+    border-style: outset;
+    border-color: #F294C0;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+/* this styles the body to be a certain color*/
+body {
+    background-color: #F27E7E;
+}
+/* This styles all h1 headers to be this color and be in the center*/
+h1 {
+    color: #A65198;
+    text-align: center;
+}
+/*This makes it so that all img are the same size by adjusting their width and height.
+In addition to that I gave all img's a border with color*/
+img {
+    width:300px;
+    height:400px;
+    border-width: 20px;
+    border-style: dotted;
+    border-color: #5653A6;
+}
+/*This just adds some color to all <p> tag text*/
+p {
+    color: #5653A6;
+}
+/* This adds some style to all the tables I have within the divs. 
+All tables have the same color, same border with 1px, solid lines, and black text. Each table also has the same border width, padding, and margins. */
+table, th, td {
+    color: #5653A6;
+    border: 1px solid black;
+    width: 40%;
+    padding: 5px;
+    margin: auto;
+}
